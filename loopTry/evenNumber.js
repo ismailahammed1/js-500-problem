@@ -45,3 +45,21 @@ for (let index = 61; index < 100; index++) {
   }
   
 }
+// Display sum of all the odd numbers from 91 to 129.
+
+sum =0;
+for (let index =91; index < 129; index++) {
+  if (index%2===0) {
+    sum+=index   
+  }
+}
+console.log(sum);
+// Display sum of all the even numbers from 51 to 85.
+
+sum =0;
+for (let index =51; index < 85; index++) {
+  if (index%2===0) {
+    sum+=index   
+  }
+}
+console.log(sum);
